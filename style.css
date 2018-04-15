@@ -1,0 +1,55 @@
+body {
+    background: #03a9f4;
+/*
+    min-height: 100%;
+    min-width: 100%;
+*/
+    color: white;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 400px;
+    margin: 0 auto;
+/*    text-align: center;*/
+    padding: 20px; 
+}
+
+.raffle_logo {
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+  /* label color */
+   .input-field label {
+     color: #fff;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #fff;
+   }
+   /* label underline focus color */
+   .input-field input[type=text] {
+     border-bottom: 1px solid #fff;
+    font-size: 2rem;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #fff;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #fff;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid red;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #fff;
+   }
+     
